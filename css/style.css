@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+body,html {
+ 	background: rgb(29,28,37);
+ 	height: 100%;
+ 	display: flex;
+}
+
+#logo-header {
+	text-align: center;
+	color: #fff;
+	font-family: 'Merienda', cursive;
+	text-shadow: 2px 2px 4px #000000;
+  	font-size: 60px;
+}
+#logo-pored {
+	text-align: center;
+	color: #fff;
+	font-family: 'Merienda', cursive;
+	text-shadow: 2px 2px 4px #000000;
+  	font-size: 15px;
+}
+
+ /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  filter:brightness(30%);}
+}
